@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Francemy Eduardo Sebastião</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Estilos gerais e reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", Arial, sans-serif;
+      }
+
+      body {
+        background-color: #f5f5f5;
+        color: #333;
+        line-height: 1.6;
+        font-size: 10pt;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 0;
+      }
+
+      /* Cabeçalho */
+      header {
+        background: #1a5276;
+        color: white;
+        padding: 25px 35px;
+        position: relative;
+      }
+
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+
+      .header-left {
+        flex: 3;
+      }
+
+      .header-right {
+        flex: 2;
+        text-align: right;
+        font-size: 9pt;
+      }
+
+      h1 {
+        font-size: 20pt;
+        font-weight: 700;
+        margin-bottom: 5px;
+        letter-spacing: 0.5px;
+      }
+
+      h2 {
+        font-size: 12pt;
+        font-weight: 400;
+        margin-bottom: 10px;
+        color: #aed6f1;
+      }
+
+      .contact-info {
+        margin-top: 15px;
+        line-height: 1.4;
+      }
+
+      .contact-info a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+
+      /* Conteúdo principal */
+      main {
+        padding: 30px 35px;
+      }
+
+      section {
+        margin-bottom: 25px;
+      }
+
+      h3 {
+        font-size: 14pt;
+        color: #1a5276;
+        position: relative;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      /* Experiência profissional */
+      .job {
+        margin-bottom: 20px;
+      }
+
+      .job-title {
+        font-weight: 700;
+        font-size: 11pt;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+
+      .job-company {
+        font-style: italic;
+        margin-bottom: 5px;
+        color: #555;
+      }
+
+      .job-date {
+        color: #777;
+        font-size: 9pt;
+      }
+
+      ul {
+        list-style-type: none;
+        padding-left: 5px;
+      }
+
+      ul li {
+        position: relative;
+        padding-left: 15px;
+        margin-bottom: 5px;
+      }
+
+      ul li:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #1a5276;
+      }
+
+      /* Formação Acadêmica */
+      .education {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+      }
+
+      .education-title {
+        font-weight: 700;
+      }
+
+      .education-institution {
+        font-style: italic;
+      }
+
+      /* Skills */
+      .skills-category {
+        margin-bottom: 15px;
+      }
+
+      .skills-category h4 {
+        font-size: 10.5pt;
+        color: #555;
+        margin-bottom: 5px;
+      }
+
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .skill-item {
+        background: #f0f7fc;
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-size: 9pt;
+        border: 1px solid #d6eaf8;
+      }
+      .skill-item:hover {
+        background-color: #d6eaf8;
+        cursor: default;
+      }
+
+      /* Projetos */
+      .project {
+        margin-bottom: 15px;
+      }
+
+      .project-title {
+        font-weight: 700;
+        margin-bottom: 3px;
+      }
+
+      /* Certificações e idiomas */
+      .two-columns {
+        display: flex;
+        gap: 40px;
+      }
+
+      .column {
+        flex: 1;
+      }
+
+      .language-level {
+        color: #555;
+        font-style: italic;
+        font-size: 9pt;
+      }
+
+      /* Informações adicionais */
+      .info-block {
+        margin-bottom: 20px;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        padding: 15px;
+        font-size: 8pt;
+        color: #777;
+        border-top: 1px solid #eee;
+      }
+
+      /* Media Queries */
+      @media print {
+        body {
+          background: white;
+        }
+
+        .container {
+          box-shadow: none;
+          max-width: 100%;
+        }
+
+        .page-break {
+          page-break-before: always;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-content">
+          <div class="header-left">
+            <h1>FRANCEMY EDUARDO SEBASTIÃO</h1>
+            <h2>Analista de Sistemas & Engenheiro de Software Full Stack</h2>
+          </div>
+          <div class="header-right">
+            <div class="contact-info">
+              Luanda, Angola<br />
+              +244 921 155 756<br />
+              francemysebastiaofrancemy@gmail.com<br/> 
+              gelson23tg@gmail.com <br/>
+              <a
+                href="https://www.linkedin.com/in/francys-sebasti%C3%A3o-687b90216/" rel="noopener noreferrer"
+                target="_blank"
+                >LinkedIn</a
+              >
+              |
+              <a href="https://github.com/francemySebastiao" target="_blank" rel="noopener noreferrer"
+                >GitHub</a
+              >
+              |
+              <a href="https://gitlab.com/gelson23tg" target="_blank" rel="noopener noreferrer">GitLab</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <h3>PERFIL PROFISSIONAL</h3>
+          <p>
+            Engenheiro de Software Full Stack com especialização em
+            desenvolvimento de aplicações web modernas e integração de sistemas
+            complexos. Comprovada capacidade de entregar soluções escaláveis e
+            de alto desempenho para desafios empresariais críticos. Combinação
+            única de habilidades técnicas e visão de negócios, resultando em
+            implementações que otimizaram processos e aumentaram a eficiência
+            operacional em mais de 5 empresas angolanas.
+          </p>
+        </section>
+
+        <section>
+          <h3>EXPERIÊNCIA PROFISSIONAL</h3>
+
+          <div class="job">
+            <div class="job-title">
+              <span>Analista de Sistemas</span>
+              <span class="job-date">Novembro 2023 – Presente</span>
+            </div>
+            <div class="job-company">
+              Okayula Tech - Soluções Tecnológicas e Engenharia Lda | Luanda,
+              Angola
+            </div>
+            <ul>
+              <li>
+                Desenvolvi interfaces de usuário responsivas utilizando React.js
+                e Tailwind CSS, contribuindo para o aumento da taxa de retenção
+                de usuários em 30%
+              </li>
+              <li>
+                Implementei sistemas backend com Spring Boot e Node.js
+                integrados ao SQL Server, otimizando o tempo de resposta do
+                sistema em 25%
+              </li>
+              <li>
+                Estruturei arquiteturas de software escaláveis e seguras,
+                utilizando Docker e pipelines de CI/CD automatizados via GitLab
+              </li>
+              <li>
+                Realizei levantamento de requisitos com stakeholders,
+                transformando necessidades de negócio em soluções tecnológicas
+                práticas e eficientes
+              </li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-title">
+              <span>Analista Desenvolvedor</span>
+              <span class="job-date">Janeiro 2022 – Outubro 2023</span>
+            </div>
+            <div class="job-company">TISTECH | Luanda, Angola</div>
+            <ul>
+              <li>
+                Atuei no desenvolvimento e manutenção de sistemas ERP voltados
+                para os setores empresarial, utilizando majoritariamente Laravel
+                (PHP) e Node.js no backend
+              </li>
+              <li>
+                Atuei o desenvolvimento de módulos estratégicos — como
+                financeiro e RH — impactando mais de 10.000 funcionários
+              </li>
+              <li>
+                Realizei otimizações em consultas SQL e na modelagem do banco de
+                dados, reduzindo o tempo de geração de relatórios em até 40%
+              </li>
+              <li>
+                Implementei integrações com APIs RESTful e serviços externos,
+                garantindo segurança, escalabilidade e alta performance do
+                sistema
+              </li>
+              <li>
+                Colaborei com times ágeis e multidisciplinares sob a metodologia
+                Scrum, contribuindo para entregas ágeis e evoluções constantes
+                no produto
+              </li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-title">
+              <span>Desenvolvedor Full Stack Freelancer</span>
+              <span class="job-date">Janeiro 2019 – Dezembro 2021</span>
+            </div>
+            <ul>
+              <li>
+                Desenvolvi meu próprio sistema ERP completo, utilizando Go no
+                backend, Next.js no frontend e PostgreSQL como banco de dados,
+                com foco em performance, escalabilidade e modularidade
+              </li>
+              <li>
+                Implementei soluções ERP personalizadas com Odoo
+                (Python/PostgreSQL) para clientes dos setores de educação, saúde
+                e comércio, atendendo a requisitos específicos de cada área
+              </li>
+              <li>
+                Introduzi a plataforma GeneXus em instituições locais,
+                acelerando o tempo de entrega de sistemas em 35% e facilitando a
+                manutenção das soluções
+              </li>
+              <li>
+                Criei websites modernos e responsivos com SEO otimizado,
+                incluindo integração com gateways de pagamento e sistemas de
+                gestão de conteúdo
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>FORMAÇÃO ACADÊMICA</h3>
+          <div class="education">
+            <span class="education-title">Engenharia Informática</span>
+            <span class="job-date">2017 – Presente (Concluindo)</span>
+          </div>
+          <div class="education-institution">
+            Universidade Católica de Angola
+          </div>
+          <ul>
+            <li>
+              Projeto Final: "Integração de Inteligência Artificial em
+              Arquiteturas Web Modernas"
+            </li>
+            <li>
+              Foco em Engenharia de Software, Sistemas Distribuídos e Aplicações
+              Empresariais
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>COMPETÊNCIAS TÉCNICAS</h3>
+
+          <div class="skills-category">
+            <h4>Especialidades Principais:</h4>
+            <div class="skills-list">
+              <span class="skill-item">React.js</span>
+              <span class="skill-item">Next.js</span>
+              <span class="skill-item">Node.js</span>
+              <span class="skill-item">Spring Boot</span>
+              <span class="skill-item">Material UI</span>
+              <span class="skill-item">Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h4>Linguagens de Programação:</h4>
+            <div class="skills-list">
+              <span class="skill-item">JavaScript/TypeScript</span>
+              <span class="skill-item">Python</span>
+              <span class="skill-item">Java</span>
+              <span class="skill-item">Go</span>
+              <span class="skill-item">PHP</span>
+              <span class="skill-item">SQL</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h4>Backend & Bancos de Dados:</h4>
+            <div class="skills-list">
+              <span class="skill-item">Express.js</span>
+              <span class="skill-item">Django</span>
+              <span class="skill-item">Laravel</span>
+              <span class="skill-item">PostgreSQL</span>
+              <span class="skill-item">MySQL</span>
+              <span class="skill-item">SQL Server</span>
+              <span class="skill-item">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skills-category">
+            <h4>DevOps & Metodologias:</h4>
+            <div class="skills-list">
+              <span class="skill-item">Docker</span>
+              <span class="skill-item">GitLab/GitHub CI/CD</span>
+              <span class="skill-item">Git</span>
+              <span class="skill-item">Jira</span>
+              <span class="skill-item">Agile (Scrum/Kanban)</span>
+              <span class="skill-item">Design Thinking</span>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <section>
+            <h3>PROJETOS RELEVANTES</h3>
+
+            <div class="project">
+              <div class="project-title">
+                Sistema de Gestão Acadêmica Integrado
+              </div>
+              <ul>
+                <li>
+                  Aplicação web completa para gerenciamento acadêmico usando
+                  Spring Boot e React
+                </li>
+                <li>
+                  Implementou autenticação JWT e controle de acesso baseado em
+                  papéis
+                </li>
+                <li>
+                  Resultou em redução de 45% no tempo de processamento de
+                  matrículas
+                </li>
+              </ul>
+            </div>
+
+            <div class="project">
+              <div class="project-title">
+                Gestor de Banco de Dados para Sistemas Legados
+              </div>
+              <ul>
+                <li>
+                  Desenvolvi uma aplicação em Python para gerenciamento
+                  intuitivo de bases de dados, especialmente focada em sistemas
+                  legados
+                </li>
+                <li>
+                  Oferece dois modos de operação: consultas SQL avançadas e uma
+                  interface simplificada para navegação facilitada
+                </li>
+                <li>
+                  Facilita o acesso e a manipulação de dados para equipes que
+                  trabalham com infraestruturas antigas, melhorando a
+                  produtividade e reduzindo erros
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <div class="project">
+            <div class="project-title">Plataforma E-commerce Multi-tenant</div>
+            <ul>
+              <li>
+                Solução escalável para múltiplos lojistas usando Node.js e
+                Next.js
+              </li>
+              <li>
+                Integração com gateways de pagamento locais e APIs logísticas
+              </li>
+              <li>
+                Aumentou conversão de vendas em 28% para lojistas participantes
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <div class="two-columns">
+          <div class="column">
+            <section>
+              <h3>CERTIFICAÇÕES</h3>
+              <ul>
+                <li>Full Stack JavaScript Developer (Udemy – 50h)</li>
+                <li>Fundamentos de DevOps (Coursera – 20h)</li>
+                <li>Construindo Aplicações com React e Next.js (Alura)</li>
+                <li>Inteligência Emocional para Liderança Técnica</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="column">
+            <section>
+              <h3>IDIOMAS</h3>
+              <ul>
+                <li>Português <span class="language-level">(Nativo)</span></li>
+                <li>
+                  Inglês
+                  <span class="language-level"
+                    >(Intermediário - Leitura técnica e comunicação
+                    profissional)</span
+                  >
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+
+        <section>
+          <h3>INFORMAÇÕES ADICIONAIS</h3>
+          <ul>
+            <li>Disponibilidade para trabalho remoto ou híbrido</li>
+            <li>Experiência em trabalho autônomo e equipes multiculturais</li>
+            <li>
+              Interesse em pesquisa aplicada de IA para sistemas distribuídos
+              (RAG, modelos embarcados)
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        Francemy Eduardo Sebastião &mdash; Última atualização: Abril de 2025
+      </footer>
+    </div>
+  </body>
+</html>
